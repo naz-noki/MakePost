@@ -1,0 +1,115 @@
+.CreatePost__modal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173, 173, 173, 0.377);
+}
+.CreatePost{
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 450px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.closeForm__title{
+    font-size: 25px;
+    padding-top: 9px;
+    margin-left: 45px;
+}
+.CreatePost__inpS{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: max-content;
+}
+.CreatePost__inp{
+    padding-left: 15px;
+    width: 400px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 8px 11px 1px rgba(34, 60, 80, 0.18);
+    -moz-box-shadow: 0px 8px 11px 1px rgba(34, 60, 80, 0.18);
+    box-shadow: 0px 8px 11px 1px rgba(34, 60, 80, 0.18);
+}
+.create{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin-top: 35px;
+    font-size: 17px;
+    margin-left: 390px;
+}
+.create::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1.5px;
+    background-color: rgb(100, 100, 100);
+    margin-top: 19px;
+    transition: 200ms;
+}
+.create::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1.5px;
+    background-color: rgb(100, 100, 100);
+    margin-top: -2px;
+    margin-left: 0px;
+    transition: 200ms;
+}
+.create:hover::after{
+    transition: 200ms;
+    margin-left: -70px;
+    width: 70px;
+}
+.create:hover::before{
+    transition: 200ms;
+    width: 70px;
+}
+.closeForm__btn{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 150ms;
+}   .closeForm__btn:hover{
+        transition: 150ms;
+        color: rgb(199, 199, 199);
+    }
+.header__btn:hover{
+    -webkit-box-shadow: 0px 0px 100px 28px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 100px 28px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 100px 28px rgba(0, 0, 0, 0.2);
+    transition: 250ms;
+    color: #000;
+    background-color: white;
+}
+.header__btn{
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #000;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 1600px;
+    transition: 250ms;
+}
